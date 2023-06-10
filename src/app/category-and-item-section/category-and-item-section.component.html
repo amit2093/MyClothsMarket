@@ -1,0 +1,40 @@
+<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
+
+  <!-- left side category -->
+  <div class="col-md-2">
+    <div style="margin-top: 0px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <h4><b>{{categoryFor}}</b></h4>
+          <ul class="list-group list-group-flush">
+            <li *ngFor="let items of categoryData"
+              [ngStyle]="items == selectedTab ? {'color': '#ff5500', 'font-weight': 'bolder', 'font-size': 'large', 'pointer':'cursor'} : { 'color': 'black'}"
+              class="list-group-item"
+              (click)="changeSubCategory(items)">{{items}}</li>
+          </ul>
+        </li>
+      </ul>
+      <div style="margin-top: 30px;">
+        <h4 style="margin-left: 20px;"><b>{{filterText}}</b></h4>
+        <ngx-slider style="margin-top: 50px;" [(value)]="minValue" [options]="options"
+          (userChangeEnd)="onUserChangeFilter($event)">
+        </ngx-slider>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------------------------------------------------------------------- -->
+  <!-- Right side category items -->
+  <div class="col-md-10">
+    <div class="responsive">
+      <p>Showing items 
+        <b> > </b> {{currencyIconConst}} {{changeValue}}
+      </p>
+      <ul id="category-item">
+        <li *ngFor="let item of categoryItems">
+          <app-cloth-card [item]="item"></app-cloth-card>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

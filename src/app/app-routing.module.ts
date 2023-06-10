@@ -1,7 +1,12 @@
+import { HomePageComponent } from './home-page/home-page.component';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { CategoryAndItemSectionComponent } from './category-and-item-section/category-and-item-section.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '' , component: HomePageComponent},
+  {path: ':id' , component: CategoryAndItemSectionComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

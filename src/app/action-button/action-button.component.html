@@ -1,0 +1,7 @@
+<div class="icon-container">
+    <i class="bi bi-plus-square" style="float: right;" (click)="showHide = !showHide"></i>
+    <div class="action-pill" *ngIf="showHide">
+        <i class="bi bi-plus-square add"  (click)="sendBack()"></i>
+        <i class="bi bi-plus-square delete"  (click)="sendBack()"></i>
+    </div>
+</div>

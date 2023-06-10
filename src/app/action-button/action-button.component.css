@@ -1,0 +1,25 @@
+.action-pill {
+    background-color: #eee;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+    width: auto;
+    float: right;
+    z-index: 500;
+    margin: 10px;
+}
+
+.add {
+    font-size: 12px;
+    margin-left: -5px;
+    margin-right: 15px;
+    color: green;
+}
+
+
+.action-pill i+.delete {
+    font-size: 12px;
+    color: red;
+    margin-left: 15px;
+    margin-right: 15px;
+}

@@ -1,0 +1,9 @@
+{
+    "TG_TEMPLATES_DEFINITION": {
+        "modelType": "PSP",
+        "modelId": "2220",
+        "tableName": "TG_TEMPLATES_DEFINITION",
+        "modelName": "AUDIENCE_FSP"
+        
+    }
+}

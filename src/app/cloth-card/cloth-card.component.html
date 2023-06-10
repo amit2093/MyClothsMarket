@@ -1,0 +1,29 @@
+<div class="gallery">
+    <img src={{item.imgUrl}} class="border">
+    <div class="bg bg-light text-center icon-color" style="width: 160px; height: 35px; opacity: 0.7;">
+        <div id="category-item-menu">
+            <ul>
+                <li (click)="addToCart(item.id)" data-toggle="tooltip" data-placement="top" title="{{addToCartConst}}">
+                    <i style="margin-left: -15px;" 
+                        [style.color]="shoppingCartColor" 
+                        class="icon-color fa fa-shopping-cart"></i>
+                </li>
+                <li (click)="setFavourite(item.id)" data-toggle="tooltip" data-placement="top" title="{{favConst}}">
+                    <i style="margin-left: 40px;" 
+                        [style.color]="favouriteColor"
+                        class="icon-color fa fa-heart"></i>
+                </li>
+                <li data-toggle="tooltip" data-placement="top" title="Add">
+                    <i style="margin-left: 95px;" class="icon-color fas fa-palette"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="text-center">
+    <b style="color: lightgray;">
+        <del>{{currencyIconConst}}{{item.price}}</del>
+    </b> 
+    &nbsp;
+    <b style="color: maroon;">{{currencyIconConst}} {{item.priceAfterDiscount}}</b>
+</div>

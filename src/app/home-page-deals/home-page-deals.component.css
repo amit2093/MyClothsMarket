@@ -1,0 +1,42 @@
+div.deals {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 3%;
+}
+
+div.scrollmenu div {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+ul#menu li {
+  display: inline;
+}
+
+div.homeItems {
+  background-color: #f4f4f4;
+  border-radius: 2px;
+  padding-top: 1%;
+  padding-left: 1%;
+  border-radius: 5px;
+  /* margin-left: 1%; */
+  /* margin-right: 1%; */
+}
