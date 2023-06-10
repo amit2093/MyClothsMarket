@@ -1,0 +1,18 @@
+{
+    "amit": {
+        "12": {
+            "surname": "Saxena",
+            "custID": "12", 
+            "accountNum": "9754998623",
+            "sortCode": "20-15-10",
+            "paymentLimit": "1000"
+        },
+        "3": {
+            "surname": "Srivastava",
+            "custID": "3",
+            "accountNum": "9685855586",
+            "sortCode": "20-15-5",
+            "paymentLimit": "10000"
+        }
+    }
+}

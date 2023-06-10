@@ -1,5 +1,5 @@
 [
-  { "for":"Man",  "items": ["T-shirt", "Suit", "Jeans", "Pant"] },
+  { "for":"Man",  "items": ["T-shirt", "Suit", "Jeans", "Pant", "Kurta", "Sherwani"] },
   { "for":"Woman","items": ["T-shirt", "Sari", "Kurta"] },
   { "for":"Kids", "items": ["T-shirt"] }
 ]

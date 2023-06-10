@@ -1,0 +1,49 @@
+{
+    "TG_TEMPLATES_DEFINITION": {
+        "modelType": "PSP",
+        "modelId": "2220",
+        "tableName": "TG_TEMPLATES_DEFINITION",
+        "modelName": "AUDIENCE_FSP",
+        "modelNameToTemplatesMap": {
+            "default": [
+                {
+                    "modelName": "default",
+                    "tgTemplateId": "12",
+                    "templateDefinition": "<targetGroupDef>   \r    <dimensions>   \r    <dimension name=\"Product\"/>    \r    <dimension name=\"Geography\"/>   \r    <dimension name=\"Time\"/>   \r    </dimensions>   \r    </targetGroupDef>",
+                    "audience": true,
+                    "visible": true
+                },
+                {
+                    "modelName": "default",
+                    "tgTemplateId": "3",
+                    "templateDefinition": "<targetGroupDef>   \r    <dimensions>   \r    <dimension name=\"Geography\"/>   \r    <dimension name=\"Time\"/>   \r    </dimensions>   \r      </targetGroupDef>",
+                    "measures": "Rtlr Dollars,Rtlr Units,Rtlr Trips,Rtlr Share of Dollar Reqts",
+                    "audience": true,
+                    "visible": true
+                }
+            ],
+            "AUDIENCE_FSP": [
+                {
+                    "modelName": "AUDIENCE_FSP",
+                    "tgTemplateId": "23",
+                    "templateDefinition": "<targetGroupDef><dimensions><dimension name=\"Modeled Segments\"/><dimension name=\"Kantar Matched Universe\"/></dimensions></targetGroupDef>",
+                    "audience": true,
+                    "visible": true
+                },
+                {
+                    "modelName": "AUDIENCE_FSP",
+                    "tgTemplateId": "24",
+                    "templateDefinition": "<targetGroupDef>    <dimensions>    <dimension name=\"Product\"/>    <dimension name=\"Time\" selectionCount = \"2\"/>   <dimension name=\"Geography\"/>    </dimensions>    </targetGroupDef>",
+                    "measures": "Dollar Sales",
+                    "audience": true,
+                    "visible": true
+                }
+            ]
+        }
+    },
+    "retCode": {
+        "code": "0",
+        "message": "Your request has been processed successfully",
+        "totalTimeTaken": 9
+    }
+}

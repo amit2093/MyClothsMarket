@@ -4,21 +4,21 @@
         "category": "T-shirt",
         "items": [
             {
-                "imgUrl": "https://meclothing.in/wp-content/uploads/2022/02/smile-600x800.jpg",
+                "imgUrl": "https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "id": "0",
                 "price": "499",
                 "priceAfterDiscount": "399",
                 "discount": "20%"
             },
             {
-                "imgUrl": "https://meclothing.in/wp-content/uploads/2022/02/simpson-supreme-600x800.jpg",
+                "imgUrl": "https://images.pexels.com/photos/2539244/pexels-photo-2539244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "id": "1",
                 "price": "599",
                 "priceAfterDiscount": "499",
                 "discount": "22%"
             },
             {
-                "imgUrl": "https://meclothing.in/wp-content/uploads/2022/02/Result-se-dar-600x800.jpg",
+                "imgUrl": "https://images.pexels.com/photos/2834653/pexels-photo-2834653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                 "id": "2",
                 "price": "699",
                 "priceAfterDiscount": "599",
